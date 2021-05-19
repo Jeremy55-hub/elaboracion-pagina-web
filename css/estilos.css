@@ -1,0 +1,102 @@
+html{
+background-image: url(../imagenes/fondo.jpg); 
+background-position: center top;
+background-attachment: fixed;
+font-family: Arial;
+}
+.conteiner{
+	border-radius: 25px;
+	width: 1250px;
+	margin: auto;
+	background-image: url(../imagenes/encabezado.jpg);
+	background-attachment: fixed;
+}
+.header{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border: 2px solid black;
+	background-image: url(../imagenes/encabezado.jpg);
+	background-attachment: fixed;
+	margin: auto;
+}
+.meni{
+	float: right;
+	margin: right: 9px;
+}
+.menu li{
+	display: inline-block;
+}
+.menu a{
+	color: black;
+	text-decoration: none;
+	padding: 7px;
+}
+.menu a:hover{
+	background-color: red;
+	border: 1px solid white;
+	color: black;
+}
+.nav{
+	border: 2px solid black;
+	margin: auto;
+	background-image: url(../imagenes/menu.jpg);
+	background-attachment: fixed;
+}
+.row{
+	margin: auto;
+}
+.col{
+	border-radius: : 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+.uno{
+	width: 1332px;
+	background-image: url(../imagenes/fondo2.jpg);
+	background-attachment: fixed;
+}
+.dos{
+	width: 1332px;
+	background-image: url(../imagenes/fondo2.jpg);
+	background-attachment: fixed;
+}
+.footer{
+	border: 2px solid black;
+	margin: auto;
+	text-align: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-image: url(../imagenes/final.jpg);
+}
+h1{
+	font-family: comic Sans MS;
+	font-size: 50px;
+	color: black;
+	font-weight: bolder;
+	text-shadow: 18px 13px 16px white;
+	text-align: center;
+}
+h2 {
+	font-family: comic Sans MS;
+	font-size: 40px;
+	color: pink;
+	font-weight: bolder;
+	text-shadow: 11px 8px 9px rgb(71, 86, 59 );
+	text-align: center;
+}
+h4{
+	font-family: Arial;
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	text-shadow: 7px 4px 5px white;
+	text-align: center;
+}
+p {
+	font-family: Arial;
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	text-shadow: 7px 4px 5px white;
+	text-align: justify;
+}
